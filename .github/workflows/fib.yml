@@ -3,6 +3,8 @@ name: Fibonacci Series
 on:
   workflow_dispatch:
 
+working-directory: .
+
 jobs:
   build:
     runs-on: ubuntu-latest
